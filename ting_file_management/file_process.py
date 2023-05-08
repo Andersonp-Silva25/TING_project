@@ -1,6 +1,7 @@
 from ting_file_management.file_management import txt_importer as file
 import sys
 
+
 def process(path_file, instance):
     file_data = {
         "nome_do_arquivo": path_file,

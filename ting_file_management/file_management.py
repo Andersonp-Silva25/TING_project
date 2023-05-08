@@ -8,4 +8,4 @@ def txt_importer(path_file):
                 return [line.strip("\n") for line in file.readlines()]
         print("Formato inválido", file=sys.stderr)
     except FileNotFoundError:
-            print(f"Arquivo {path_file} não encontrado", file=sys.stderr)
+        print(f"Arquivo {path_file} não encontrado", file=sys.stderr)

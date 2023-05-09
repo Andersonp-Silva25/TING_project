@@ -12,7 +12,7 @@ def exists_word(word, instance):
             "arquivo": file_name,
             "ocorrencias": [],
         }
-        
+
         for i in range(len(line)):
             if re.search(word, line[i], re.I):
                 data["ocorrencias"].append({"linha": i + 1})
